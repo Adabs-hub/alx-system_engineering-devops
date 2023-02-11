@@ -1,3 +1,2 @@
 #!/bin/bash
-cd /bin/ls
-ln -s /bin/ls _l_
+./scripts/script
