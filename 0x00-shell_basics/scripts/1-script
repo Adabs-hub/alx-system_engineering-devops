@@ -5,5 +5,5 @@ cd ..
 echo -e "\n..:"
 ls -la
 cd /boot
-echo -e "\n /boot:"
+echo -e "\n/boot:"
 ls -la
