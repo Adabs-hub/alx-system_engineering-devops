@@ -1,2 +1,2 @@
 #!/bin/bash
-$ find -type f -printf "%t - %p\n" | sort -n | tail -10
+$ find ./ -type f -exec stat -c '%X %n' {} \; | sort -t | head -n 10
