@@ -16,7 +16,7 @@
 # About **Bash** projects
 Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 
-!()[https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/205/image.jpg]
+![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/205/image.jpg)
 
 
 # Resources
@@ -59,6 +59,7 @@ At the end of this project, you are expected to be able to explain to anyone, **
 ## General
 - What does RTFM mean?
 - What is a Shebang
+
 
 ## What is the Shell
 - What is the shell
@@ -110,6 +111,7 @@ At the end of this project, you are expected to be able to explain to anyone, **
 ## Keyboard Shortcuts for Bash
 - Common shortcuts for Bash
 
+
 # LTS
 - What does LTS mean?
 
@@ -121,6 +123,7 @@ At the end of this project, you are expected to be able to explain to anyone, **
 
 
 # Requirements
+
 ## General
 - Allowed editors: vi, vim, emacs
 - All your scripts will be tested on Ubuntu 20.04 LTS
@@ -146,7 +149,7 @@ julien@ubuntu:/tmp$
  
 In order to test your scripts, you will need to use this command: chmod u+x file. We will see later what does chmod mean and do, but you can have a look at man chmod if you are curious.
 
-*Example*
+***Example***
 
 ```
 julien@ubuntu:/tmp$ ls
