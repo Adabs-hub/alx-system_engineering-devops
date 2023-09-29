@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#This script prints 10 lines of text with a while loop
+x=0
+until [ $x -gt 9 ]
+do
+	echo "Best School"
+	((x++))
+done
