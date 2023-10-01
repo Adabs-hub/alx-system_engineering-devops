@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 
-# Check if the file "input.txt" exists
+# Read password
 if [ -e "/etc/passwd" ]; then
     # Loop through each line in the file
     while read -r line; do
-        # Print each line to the terminal
 	IFS=":"
         read -ra array <<< "$line"
 
