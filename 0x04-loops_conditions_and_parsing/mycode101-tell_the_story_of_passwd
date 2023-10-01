@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# Read password
+file="/etc/passwd"
+while IFS=: read -ra array;
+do
+	echo "The user ${array[0]} is part of the ${array[2]} gang, lives in ${array[5]} and rides ${array[6]}.${array[3]}'s place is protected by the passcode ${array[1]}, more info about the user here: ${array[0]}"
+
+done < "/etc/passwd"
