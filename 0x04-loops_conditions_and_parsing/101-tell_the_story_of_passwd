@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Check if the file "input.txt" exists
 if [ -e "/etc/passwd" ]; then
@@ -12,5 +12,5 @@ if [ -e "/etc/passwd" ]; then
 
     done < "/etc/passwd"
 else
-    echo "The file 'input.txt' does not exist."
+    echo "The file '/etc/passwd' does not exist."
 fi
