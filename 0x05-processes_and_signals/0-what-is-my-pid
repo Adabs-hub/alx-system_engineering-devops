@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-
 #displays own pid
 printf "%d\n" $$
