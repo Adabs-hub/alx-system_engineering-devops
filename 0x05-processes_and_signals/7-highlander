@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #detect sigterm and resist the kill processes
-trap "I am invincible!!!" SIGTERM
+trap '"I am invincible!!!"' SIGTERM
 while true;
 do
 	echo "To infinity and beyond"
